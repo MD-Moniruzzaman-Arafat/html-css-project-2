@@ -125,3 +125,41 @@ header {
 .card p {
   margin: 0 0 !important;
 }
+
+/* a_summary_of_my_resume */
+#a_summary_of_my_resume {
+  margin: 100px 0;
+}
+#a_summary_of_my_resume > h1 {
+  text-align: center;
+}
+#experience,
+#education {
+  margin: 30px 0;
+}
+.resume_container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.resume_card {
+  width: 400px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+.resume_card:last-child {
+  border-bottom: none;
+}
+.resume_card > p {
+  margin: 10px 0;
+}
+#download_button2 {
+  background: #fd6e0a;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 122px;
+  margin: 50px auto;
+  display: block;
+}
