@@ -77,3 +77,21 @@ header {
 #image_container img {
   width: 100%;
 }
+
+/* main */
+/* about_me */
+#about_me {
+  text-align: center;
+  margin: 100px 0;
+}
+#about_me h1 {
+  font-size: 50px;
+}
+#about_me p {
+  margin: 20px 0;
+}
+#info {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
